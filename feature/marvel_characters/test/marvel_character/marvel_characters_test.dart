@@ -4,10 +4,10 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:tide_di/tide_di.dart';
 
-import './step/i_am_on_the_marvel_characters_page.dart';
-import './step/backend_responds_with.dart';
-import './step/i_see_a_list_of_marvel_characters.dart';
-import './step/i_see_an_error_message.dart';
+import 'step/i_am_on_the_marvel_characters_page.dart';
+import 'step/backend_responds_with.dart';
+import 'step/i_see_a_list_of_marvel_characters.dart';
+import 'step/i_see_an_error_message.dart';
 import 'package:test_utils/src/test_container.dart';
 
 void main() {
