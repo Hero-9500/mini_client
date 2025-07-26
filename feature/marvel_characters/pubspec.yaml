@@ -8,6 +8,7 @@ environment:
   flutter: ^3.16.3
 
 dependencies:
+
   api_client:
     path: ../../utility/api_client
   tide_design_system:
@@ -26,8 +27,15 @@ dependencies:
     path: ../../utility/tide_di
   feature_flow:
     path: ../../utility/feature_flow
+  cached_network_image: ^3.4.1
 
 dev_dependencies:
+  bdd_widget_test: ^1.7.4
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  test_utils:
+    path: ../../utility/test_utils
   build_runner: ^2.4.7
   freezed: ^2.4.5
   injectable_generator: ^2.4.1

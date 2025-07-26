@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:tide_design_system/tide_design_system.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -63,7 +64,7 @@ class CharacterItem extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               Expanded(
-                child: Image.network(character.thumbnail.url),
+                child: CachedNetworkImage(imageUrl: character.thumbnail.url),
               ),
               Padding(
                 padding: const EdgeInsets.all(12),

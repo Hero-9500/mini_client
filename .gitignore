@@ -3,3 +3,5 @@
 **/.flutter-plugin-dependencies
 **/.dart_tool
 app/mini_client/README.md
+**/build
+**/coverage

@@ -1,0 +1,21 @@
+name: test_utils
+description: Miniclient test utilities
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ^3.2.0
+
+dependencies:
+  dio: ^5.4.0
+  flutter:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  tide_di:
+    path: ../tide_di
+
+dev_dependencies:
+  tide_analysis:
+    path: ../tide_analysis
