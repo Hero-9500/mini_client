@@ -1,0 +1,10 @@
+name: tide_analysis
+description: Mini client linter rules
+
+version: 0.0.1
+
+environment:
+  sdk: ^3.2.0 # or newer
+
+topics:
+  - lints

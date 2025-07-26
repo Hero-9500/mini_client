@@ -1,0 +1,33 @@
+name: mini_client
+description: "Miniclient study app"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  api_client:
+    path: ../../utility/api_client
+  tide_design_system:
+    path: ../../utility/tide_design_system
+  marvel_characters:
+    path: ../../feature/marvel_characters
+  tide_monitoring:
+    path: ../../utility/tide_monitoring
+  tide_di:
+    path: ../../utility/tide_di
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  tide_analysis:
+    path: ../../utility/tide_analysis
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
